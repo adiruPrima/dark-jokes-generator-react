@@ -67,6 +67,16 @@ function App() {
           {isStart ? "Next →" : "Start"}
         </button>
       </div>
+      <img
+        src="/public/the-rock-sus-transparent.png"
+        alt=""
+        className="fixed bottom-[-3rem] hidden lg:block opacity-50 scale-90"
+      />
+      <img
+        src="/public/sus-dog-transparent.png"
+        alt=""
+        className="fixed bottom-[-5rem] right-0 hidden lg:block opacity-50"
+      />
     </div>
   );
 }
